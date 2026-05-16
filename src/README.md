@@ -1,12 +1,7 @@
-## Source Code (src)
+## Source Code (`src`)
 
-This folder contains core modules and resuable functions.
+This folder contains core modules and reusable functions.
 
-Structure:
-- Each submodule implements a specific component (e.g., data handling, utilities, modeling)
-- Code here should be modular, resuable, and independent of execution context
-
-Guidelines:
-- Avoid hardcoding paths or parameters
-- Keep business logic in 'src/', not in scripts or notebooks
-- Add docsctrings to all functions and classes
+- `data/`: contains functions used to clean the raw data.
+- `trade/`: contains the intuition-based rule and the final trading rule.
+- `utils/`: stores project paths and futures month-code mappings.

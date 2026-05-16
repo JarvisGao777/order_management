@@ -1,52 +1,82 @@
-Standard month code:
+## Raw Data
 
-Code	Month
-F	    Jan
-G	    Feb
-H	    Mar
-J	    Apr
-K	    May
-M	    Jun
-N	    Jul
-Q	    Aug
-U	    Sep
-V	    Oct
-X	    Nov
-Z	    Dec
+This folder contains raw futures data and agent data.
 
-1. EuroStoxx
-VGH22 → 03/2022
-VGM22 → 06/2022
+### Futures Contract Month Codes
 
-2. GBP - British Pound
-BPM20 → 06/2020
-BPU20 → 09/2020
+Futures contract symbols use standard month codes:
 
-3. German Bunds - German Government Bonds
-RXM25 → 06/2025
-RXU25 → 09/2025
-RXZ25 → 12/2025
+| Code | Month |
+|---|---|
+| F | January |
+| G | February |
+| H | March |
+| J | April |
+| K | May |
+| M | June |
+| N | July |
+| Q | August |
+| U | September |
+| V | October |
+| X | November |
+| Z | December |
 
-4. Gold
-GCG24 → 02/2024
-GCJ24 → 04/2024
-GCM24 → 06/2024
-GCQ24 → 08/2024
+### Futures Contract Examples
 
-5. HeatingOil
-HOF22 → 01/2022
-HOG22 → 02/2022
-HOH22 → 03/2022
-HOH22 → 04/2022
-HOH22 → 05/2022
-HOH22 → 06/2022
-HOH22 → 07/2022
+#### 1. EuroStoxx
 
-6. JPY - Japanese Yen
-JYU24 → 09/2024
-JYZ24 → 12/2024
+| Contract | Expiration |
+|---|---|
+| VGH22 | March 2022 |
+| VGM22 | June 2022 |
 
-7. Nasdaq
-NQH20 → 03/2020
-NQM20 → 06/2020
-NQU20 → 09/2020
+#### 2. GBP — British Pound
+
+| Contract | Expiration |
+|---|---|
+| BPM20 | June 2020 |
+| BPU20 | September 2020 |
+
+#### 3. German Bunds — German Government Bonds
+
+| Contract | Expiration |
+|---|---|
+| RXM25 | June 2025 |
+| RXU25 | September 2025 |
+| RXZ25 | December 2025 |
+
+#### 4. Gold
+
+| Contract | Expiration |
+|---|---|
+| GCG24 | February 2024 |
+| GCJ24 | April 2024 |
+| GCM24 | June 2024 |
+| GCQ24 | August 2024 |
+
+#### 5. Heating Oil
+
+| Contract | Expiration |
+|---|---|
+| HOF22 | January 2022 |
+| HOG22 | February 2022 |
+| HOH22 | March 2022 |
+| HOJ22 | April 2022 |
+| HOK22 | May 2022 |
+| HOM22 | June 2022 |
+| HON22 | July 2022 |
+
+#### 6. JPY — Japanese Yen
+
+| Contract | Expiration |
+|---|---|
+| JYU24 | September 2024 |
+| JYZ24 | December 2024 |
+
+#### 7. Nasdaq
+
+| Contract | Expiration |
+|---|---|
+| NQH20 | March 2020 |
+| NQM20 | June 2020 |
+| NQU20 | September 2020 |

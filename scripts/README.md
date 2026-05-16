@@ -1,12 +1,4 @@
-## Scripts
+This folder contains Python scripts that can be run to generate cleaned data and trading results.
 
-This folder contains executable Python scripts used to generate results.
-
-These scripts:
-- Serve as entry points for workflows (data processing, backtests, etc.)
-- Orchestrate functions defined in the 'src/' modules
-- Are designed to be run directly
-
-Note:
-- Core logic should remain in 'src/'
-- Scripts should be lighweight and focused on execution
+- `clean_data.py`: cleans the raw data and saves the processed files.
+- `trading.py`: implements the trading strategy and stores the results.
